@@ -1,0 +1,39 @@
+<div class="row">
+    <div class="w-50 col-6">
+        <form (ngSubmit)="onSubmit()" [formGroup]="searchForm" style="width: 320px;" class="m-auto">
+            <div class="form-group">
+                <ng-multiselect-dropdown [placeholder]="'Search Engines'" [settings]="dropdownSettings"
+                    [data]="dropdownList" formControlName="selectedengines">
+                </ng-multiselect-dropdown>
+            </div>
+            <div class="form-group">
+                <input formControlName="keywords" type="text" class="form-control" placeholder="Key words">
+            </div>
+            <div class="form-group">
+                <input formControlName="url" type="text" class="form-control" placeholder="Url">
+            </div>
+            <div class="form-group">
+                <input formControlName="numberofresults" type="number" class="form-control"
+                    placeholder="Number of Results">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary mb-2" [disabled]="loading">Search &nbsp;<span *ngIf="loading"
+                        class="spinner-border spinner-border-sm mr-1"></span></button>
+
+            </div>
+        </form>
+    </div>
+    <div class="w-50 col-6">
+
+        <div class="card-deck" style="width: 500px;">
+            <div *ngFor="let result of rankingResults" class="card bg-light mb-3"
+                style="max-width: 18rem;min-width: 14rem;">
+                <h5 class="card-header">{{result.searchEngineName}}</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Appearance Rankings</h6>
+                    <p class="card-text">{{result.rankings}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

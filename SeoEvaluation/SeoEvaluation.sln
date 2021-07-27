@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoEvaluation.Api", "SeoEvaluation.Api\SeoEvaluation.Api.csproj", "{70055B53-51E0-4FC2-BB47-1C8FDDFCF68E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoEvaluation.Infrastructure", "SeoEvaluation.Infrastructure\SeoEvaluation.Infrastructure.csproj", "{43EBDB28-8B5E-4DB6-B3CD-91C9F2A7C8FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoEvaluation.Application", "SeoEvaluation.Application\SeoEvaluation.Application.csproj", "{9C74190F-2CAA-4883-A40A-C885EDD6B56C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoEvaluation.Entities", "SeoEvaluation.Entities\SeoEvaluation.Entities.csproj", "{58222639-1E7A-40EF-95A7-D71835E2486A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoEvaluation.Tests", "SeoEvaluation.Tests\SeoEvaluation.Tests.csproj", "{942EEFEF-6929-442E-B5EA-7CAA38B1A8DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{EF2D051A-E0AC-4142-A355-A650EA2E769E}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70055B53-51E0-4FC2-BB47-1C8FDDFCF68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70055B53-51E0-4FC2-BB47-1C8FDDFCF68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70055B53-51E0-4FC2-BB47-1C8FDDFCF68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70055B53-51E0-4FC2-BB47-1C8FDDFCF68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EBDB28-8B5E-4DB6-B3CD-91C9F2A7C8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EBDB28-8B5E-4DB6-B3CD-91C9F2A7C8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EBDB28-8B5E-4DB6-B3CD-91C9F2A7C8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EBDB28-8B5E-4DB6-B3CD-91C9F2A7C8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C74190F-2CAA-4883-A40A-C885EDD6B56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C74190F-2CAA-4883-A40A-C885EDD6B56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C74190F-2CAA-4883-A40A-C885EDD6B56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C74190F-2CAA-4883-A40A-C885EDD6B56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58222639-1E7A-40EF-95A7-D71835E2486A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58222639-1E7A-40EF-95A7-D71835E2486A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58222639-1E7A-40EF-95A7-D71835E2486A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58222639-1E7A-40EF-95A7-D71835E2486A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942EEFEF-6929-442E-B5EA-7CAA38B1A8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942EEFEF-6929-442E-B5EA-7CAA38B1A8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942EEFEF-6929-442E-B5EA-7CAA38B1A8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942EEFEF-6929-442E-B5EA-7CAA38B1A8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44215671-AF94-45D7-B260-3B368A3042E3}
+	EndGlobalSection
+EndGlobal
